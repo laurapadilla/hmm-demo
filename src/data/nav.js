@@ -9,7 +9,7 @@ const nav = [
   },
   {
     children: "Demo Site",
-    href: "dem0.html",
+    href: "demo.html",
   },
 ];
 

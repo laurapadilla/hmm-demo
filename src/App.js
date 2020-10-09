@@ -24,17 +24,20 @@ function App() {
             and Love
           </p>
         </header>
-        {/* section */}
-        <section className="min-vh-100 flex">
+        {/* Main */}
+        <main className="min-vh-100 flex">
           {/* Nav column */}
           <div className="ph4 pt5 w-20 br b--light-silver">
             <Nav />
           </div>
 
           {/* content column */}
-          <div className="content w-80 pa5">
+          <section className="content w-80 pa5">
+            {/* Home component */}
+            {/* Users Component */}
+            {/* Demo Site Component */}
             <h1 className="fw5 f3-l mb4">What is HMM?</h1>
-            <p className="f5 w-70 lh-copy mb6">
+            <p className="f5 w-70 lh-copy mb5">
               HMM, “Hazardous Materials Management”, is a system that allows us
               to fulfill best in class chemical management services for our
               Aerospace customers, by tracking container level inventory,
@@ -47,8 +50,8 @@ function App() {
               better, more modern and attractive user experience, and to
               streamline the work processes for users.
             </p>
-          </div>
-        </section>
+          </section>
+        </main>
       </div>
     </div>
   );
