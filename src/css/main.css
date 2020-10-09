@@ -6,11 +6,16 @@
   --light-blue: #f0f7ff;
   --border-blue: #c8e1ff;
   --body-color: var(--light-black);
+  --header: var(--light-black);
   --links: var(--blue);
 }
 
 body {
   font-family: "Inter", sans-serif;
   color: var(--body-color);
-  padding: 40px;
+}
+
+header {
+  background-color: var(--header);
+  color: white;
 }

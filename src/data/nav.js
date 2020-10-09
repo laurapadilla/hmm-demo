@@ -15,3 +15,5 @@ const nav = [
     href: "dem0.html",
   },
 ];
+
+export default nav;

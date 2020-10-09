@@ -1,24 +1,31 @@
 import React from "react";
+import "./css/tachyons.css";
 import "./css/base.css";
 import "./css/main.css";
-import "./css/tachyons.css";
+
+import Nav from "./Nav";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* body */}
+      <div>
+        <header className="w-100 pa3">
+          <h1 className="f3-l f5-ns">HMM Team Demo</h1>
+        </header>
+        {/* section */}
+        <section className="min-vh-100 flex">
+          {/* Nav column */}
+          <div className="nav w-25 bg-lightest-blue">
+            <Nav />
+          </div>
+
+          {/* content column */}
+          <div className="content w-75 bg-purple">
+            <h3>test test</h3>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
