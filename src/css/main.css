@@ -19,3 +19,7 @@ header {
   background-color: var(--header);
   color: white;
 }
+
+a {
+  color: var(--links);
+}
