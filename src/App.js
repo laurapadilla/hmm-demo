@@ -3,7 +3,11 @@ import "./css/tachyons.css";
 import "./css/base.css";
 import "./css/main.css";
 
-import Nav from "./Nav";
+import { Route, Switch } from "react-router-dom";
+
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import Users from "./components/Home";
 
 function App() {
   return (
@@ -29,27 +33,19 @@ function App() {
           {/* Nav column */}
           <div className="ph4 pt5 w-20 br b--light-silver">
             <Nav />
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/users/" component={Users} />
+            </Switch>
           </div>
 
           {/* content column */}
           <section className="content w-80 pa5">
             {/* Home component */}
+            <Home />
             {/* Users Component */}
+            <Users />
             {/* Demo Site Component */}
-            <h1 className="fw5 f3-l mb4">What is HMM?</h1>
-            <p className="f5 w-70 lh-copy mb5">
-              HMM, “Hazardous Materials Management”, is a system that allows us
-              to fulfill best in class chemical management services for our
-              Aerospace customers, by tracking container level inventory,
-              chemical constituent data, product safety data sheets, quality
-              documentation, and more. 
-            </p>
-            <h1 className="fw5 f3-l mb4">Why the re-write?</h1>
-            <p className="f5 w-70 lh-copy">
-              The “UX” project is a rewrite of the current system, to bring a
-              better, more modern and attractive user experience, and to
-              streamline the work processes for users.
-            </p>
           </section>
         </main>
       </div>

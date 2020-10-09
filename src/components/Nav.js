@@ -1,5 +1,5 @@
 import React from "react";
-import nav from "./data/nav";
+import nav from "../data/nav";
 
 const NavItem = ({ className, href, children }) => (
   <li className={`mh2-ns f5 f5-l mb4 fw5 ${className}`}>
