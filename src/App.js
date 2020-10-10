@@ -15,8 +15,8 @@ function App() {
     <div>
       {/* body */}
       <div>
-        <header className="w-100 pv3 ph4 flex items-center justify-between">
-          <h3 className="f3-l f5-ns">HMM Team Demo</h3>
+        <header className="w-100 pa3 flex items-center justify-between">
+          <h3 className="f4-l f5-ns">HMM Team Demo</h3>
           <p className="f6">
             Built with{" "}
             <a className="white" href="https://reactjs.org/">

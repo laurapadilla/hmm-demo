@@ -12,13 +12,13 @@ class Home extends React.Component {
           data, product safety data sheets, quality documentation, and more. 
         </p>
         <h1 className="fw5 f3-l mb4">Why the re-write?</h1>
-        <p className="f5 w-70 lh-copy mb5">
+        <p className="f5 w-70 lh-copy mb4">
           The “UX” project is a rewrite of the current system, to bring a
           better, more modern and attractive user experience, and to streamline
           the work processes for users.
         </p>
 
-        <h1 className="fw5 f3-l mb4">New features</h1>
+        <h3 className="fw5 f4-l mb4">New features</h3>
         <p className="f5 w-70 lh-copy mb5">
           Some of the new improvements and features include: Adding users and
           customers directly in HMM; new UI; .
