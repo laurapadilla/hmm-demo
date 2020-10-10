@@ -4,6 +4,8 @@
   --light-black: #2a2e37;
   --blue: #006df0;
   --light-blue: #f0f7ff;
+  --light-gray: #cdd9e5;
+  --border: var(--light-gray);
   --border-blue: #c8e1ff;
   --body-color: var(--light-black);
   --header: var(--light-black);
@@ -22,4 +24,8 @@ header {
 
 a {
   color: var(--links);
+}
+
+.border-gray {
+  border-color: var(--border);
 }

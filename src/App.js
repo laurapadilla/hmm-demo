@@ -3,11 +3,12 @@ import "./css/tachyons.css";
 import "./css/base.css";
 import "./css/main.css";
 
-import { Route, Switch } from "react-router-dom";
-
 import Nav from "./components/Nav";
 import Home from "./components/Home";
-import Users from "./components/Home";
+import Users from "./components/Users";
+import Demo from "./components/Demo";
+
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
@@ -31,21 +32,22 @@ function App() {
         {/* Main */}
         <main className="min-vh-100 flex">
           {/* Nav column */}
-          <div className="ph4 pt5 w-20 br b--light-silver">
+          <div className="ph4 pt5 w-20 br border-gray">
             <Nav />
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/users/" component={Users} />
-            </Switch>
           </div>
 
           {/* content column */}
           <section className="content w-80 pa5">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/users/" component={Users} />
+            </Switch>
             {/* Home component */}
             <Home />
             {/* Users Component */}
             <Users />
             {/* Demo Site Component */}
+            <Demo />
           </section>
         </main>
       </div>

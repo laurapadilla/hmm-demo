@@ -58,3 +58,5 @@ const roles = [
     className: "",
   },
 ];
+
+export default roles;
