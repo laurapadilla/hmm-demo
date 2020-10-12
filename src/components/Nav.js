@@ -1,6 +1,6 @@
-import React from "react";
-import nav from "../data/nav";
-import { Link } from "react-router-dom";
+import React from 'react';
+import nav from '../data/nav';
+import { Link } from 'react-router-dom';
 
 const NavItem = ({ className, href, children }) => (
   <li className={`mh2-ns f5 f5-l mb4 fw5 ${className}`}>
@@ -15,8 +15,8 @@ class Nav extends React.Component {
     return (
       <nav>
         <ul className="fixed">
-          {nav.map((item) => (
-            <NavItem {...item} />
+          {nav.map((item, id) => (
+            <NavItem {...item} key={id} />
           ))}
         </ul>
       </nav>

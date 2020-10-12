@@ -1,5 +1,5 @@
-import React from "react";
-import roles from "../data/roles";
+import React from 'react';
+import roles from '../data/roles';
 
 const RoleItem = ({ className, href, role }) => (
   <li className={`f5 f5-l mb4 fw5 ${className}`}>
@@ -16,8 +16,8 @@ class Roles extends React.Component {
         <div>
           {/* Col 1 */}
           <ul>
-            {roles.map((role) => (
-              <RoleItem {...role} />
+            {roles.map((role, id) => (
+              <RoleItem {...role} key={id} />
             ))}
           </ul>
           {/* Col 2 */}

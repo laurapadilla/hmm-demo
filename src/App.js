@@ -1,14 +1,14 @@
-import React from "react";
-import "./css/tachyons.css";
-import "./css/base.css";
-import "./css/main.css";
+import React from 'react';
+import './css/tachyons.css';
+import './css/base.css';
+import './css/main.css';
 
-import Nav from "./components/Nav";
-import Home from "./components/Home";
-import Users from "./components/Users";
-import Demo from "./components/Demo";
+import Nav from './components/Nav';
+import Home from './components/Home';
+import Users from './components/Users';
+import Demo from './components/Demo';
 
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -18,14 +18,14 @@ function App() {
         <header className="w-100 pa3 flex items-center justify-between">
           <h3 className="f4-l f5-ns">HMM Team Demo</h3>
           <p className="f6">
-            Built with{" "}
+            Built with{' '}
             <a className="white" href="https://reactjs.org/">
               React
             </a>
-            ,{" "}
+            ,{' '}
             <a className="white" href="http://tachyons.io">
               Tachyons
-            </a>{" "}
+            </a>{' '}
             and Love
           </p>
         </header>
@@ -40,14 +40,9 @@ function App() {
           <section className="content w-80 pa5">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route exact path="/users/" component={Users} />
+              <Route exact path="/users" component={Users} />
+              <Route exact path="/demo" component={Demo} />
             </Switch>
-            {/* Home component */}
-            <Home />
-            {/* Users Component */}
-            <Users />
-            {/* Demo Site Component */}
-            <Demo />
           </section>
         </main>
       </div>
