@@ -12,7 +12,7 @@ const RoleItem = ({ className, href, role }) => (
 class Roles extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <div>
           {/* Col 1 */}
           <ul>
@@ -22,7 +22,7 @@ class Roles extends React.Component {
           </ul>
           {/* Col 2 */}
         </div>
-      </div>
+      </>
     );
   }
 }
