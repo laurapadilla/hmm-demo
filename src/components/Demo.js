@@ -21,13 +21,13 @@ class Demo extends React.Component {
         </p>
         <h1 className="fw5 f3-l mb4">Demo Site</h1>
         <p className="f5 w-70 lh-copy mb4">
-          <a
+         
+           Visit the demo site  <a
             className="no-underline"
             href="https://devppgchemicalmanagement.azurewebsites.net/"
           >
-            here
+           here
           </a>{" "}
-          and Visit the demo site
         </p>
       </div>
     );
