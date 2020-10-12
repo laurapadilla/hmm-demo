@@ -1,10 +1,14 @@
 import React from "react";
+import * as Icon from "react-feather";
 
 class Demo extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="fw5 f3-l mb4">Toolset</h1>
+        <h1 className="fw5 f3-l mb4">
+          <Icon.GitBranch size={28} />
+          Toolset
+        </h1>
         <p className="f5 w-70 lh-copy mb5">
           The new HMM application is built with{" "}
           <a
@@ -26,7 +30,10 @@ class Demo extends React.Component {
           </a>
           . 
         </p>
-        <h1 className="fw5 f3-l mb4">Demo Site</h1>
+        <h1 className="fw5 f3-l mb4">
+          <Icon.Chrome size={28} />
+          Demo Site
+        </h1>
         <p className="f5 w-70 lh-copy mb4">
           Visit the demo site{" "}
           <a
