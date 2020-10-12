@@ -22,10 +22,18 @@ header {
   color: white;
 }
 
-a {
+a,
+button {
   color: var(--links);
 }
 
 .border-gray {
   border-color: var(--border);
+}
+
+.btn-link {
+  background-color: white;
+  border: none;
+  color: var(--links);
+  padding: 0;
 }

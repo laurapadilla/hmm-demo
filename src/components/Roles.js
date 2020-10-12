@@ -1,28 +1,22 @@
-import React from 'react';
-import roles from '../data/roles';
+import React from "react";
+import roles from "../data/roles";
 
-const RoleItem = ({ className, href, role }) => (
+const RoleItem = ({ className, role }) => (
   <li className={`f5 f5-l mb4 fw5 ${className}`}>
-    <a className="no-underline" href={href}>
+    <button className="btn-link no-underline pointer underline-hover">
       {role}
-    </a>
+    </button>
   </li>
 );
 
 class Roles extends React.Component {
   render() {
     return (
-      <>
-        <div>
-          {/* Col 1 */}
-          <ul>
-            {roles.map((role, id) => (
-              <RoleItem {...role} key={id} />
-            ))}
-          </ul>
-          {/* Col 2 */}
-        </div>
-      </>
+      <ul className="flex flex-wrap flex-column h5">
+        {roles.map((role, id) => (
+          <RoleItem {...role} key={id} />
+        ))}
+      </ul>
     );
   }
 }
