@@ -1,12 +1,17 @@
 import React from "react";
 import nav from "../data/nav";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavItem = ({ className, href, children }) => (
   <li className={`mh2-ns f5 f5-l mb4 fw5 ${className}`}>
-    <Link className="no-underline pointer underline-hover" to={href}>
+    <NavLink
+      className="no-underline pointer underline-hover"
+      exact={true}
+      activeClassName="is-active"
+      to={href}
+    >
       {children}
-    </Link>
+    </NavLink>
   </li>
 );
 
