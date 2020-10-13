@@ -32,7 +32,7 @@ class Home extends React.Component {
         </h1>
         <p className="f5 w-70 lh-copy mb5">
           Digitizing very manual processes, giving users one system to perform
-          most of not all of their dauly tasks
+          most of not all of their daily tasks.
         </p>
         <h1 className="fw5 f3-l mb4">
           <Icon.Code size={28} />

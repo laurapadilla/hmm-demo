@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const NavItem = ({ className, href, children }) => (
   <li className={`mh2-ns f5 f5-l mb4 fw5 ${className}`}>
     <NavLink
-      className="no-underline pointer underline-hover"
+      className="no-underline pointer hover"
       exact={true}
       activeClassName="is-active"
       to={href}
