@@ -26,6 +26,15 @@ class Home extends React.Component {
           data, product safety data sheets, quality documentation, and more. 
         </p>
         <h1 className="fw5 f3-l mb4">
+          {" "}
+          <Icon.Tool size={26} />
+          What problems are we solving?
+        </h1>
+        <p className="f5 w-70 lh-copy mb5">
+          Digitizing very manual processes, giving users one system to perform
+          most of not all of their dauly tasks
+        </p>
+        <h1 className="fw5 f3-l mb4">
           <Icon.Code size={28} />
           Why the re-write?
         </h1>
