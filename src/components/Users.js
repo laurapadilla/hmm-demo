@@ -1,5 +1,6 @@
 import React from "react";
 import * as Icon from "react-feather";
+import roles from "../data/roles";
 
 import Roles from "./Roles";
 
@@ -26,7 +27,7 @@ class Users extends React.Component {
           to customer locations, and maintaining SDS and chemical data.
         </p>
         <h1 className="fw5 f4-l mb4">Common Roles</h1>
-        <Roles />
+        <Roles {...roles} />
       </div>
     );
   }
