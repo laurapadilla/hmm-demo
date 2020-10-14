@@ -4,7 +4,10 @@ import components from "../data/components";
 
 const Locations = ({ location, about, classname }) => (
   <>
-    <h3 className="mb2 f5-l fw5 mt4 orange">{location}</h3>
+    <h3 className="mb2 f5-l fw5 mt3 orange">
+      <Icon.CornerDownRight size={18} color={"#2a2e37"} />
+      {location}
+    </h3>
     <p className={`${classname}`}>{about}</p>
   </>
 );
@@ -15,6 +18,7 @@ const Components = ({ component, description, classname, locations }) => (
     <p className={`${classname}`}>
       {locations ? (
         <div>
+          {description}
           {locations.map((location, id) => (
             <Locations {...location} key={id} />
           ))}
@@ -39,6 +43,13 @@ class Customer extends React.Component {
           different components that make up a customer. These compnents can be
           customized on a per customer basis.
         </p>
+
+        <figure className="w-60 mb5">
+          <img
+            src={require("../files/customer-diagram.svg")}
+            alt="customer diagram"
+          />
+        </figure>
 
         <div>
           {components.map((component, id) => (

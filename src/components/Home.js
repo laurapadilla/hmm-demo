@@ -19,16 +19,32 @@ class Home extends React.Component {
           <Icon.Package size={26} />
           Background
         </h1>
-        <p className="f5 w-70 lh-copy mb4">
+        <p className="f5 w-60 lh-copy mb4">
           HMM, “Hazardous Materials Management”, is a system that allows us to
           fulfill best in class chemical management services for our Aerospace
           customers, by tracking container level inventory, chemical constituent
           data, product safety data sheets, quality documentation, and more. 
         </p>
-        <p className="f5 w-70 lh-copy mb5">
+        <p className="f5 w-70 lh-copy mb4">
           Currently HMM interfaces with 3 different ERP systems (Oracle, QAD)
-          and a mobile app (primarily used for scanning inventory).
+          and a mobile app (primarily used for scanning inventory). For a map of
+          the current state in HMM, please refer to{" "}
+          <a href="../files/hmmCurrentState2017.pdf" download className="link">
+            HMM Current State.
+          </a>{" "}
         </p>
+        <p className="f5 w-70 lh-copy mb5">
+          For more background information on current HMM, please refer to the{" "}
+          <a
+            href="/files/summa_hmmResearchFindings2017.pdf"
+            download
+            className="link"
+          >
+            HMM Research Findings
+          </a>{" "}
+          provided by Summa.
+        </p>
+
         <h1 className="fw5 f3-l mb4">
           {" "}
           <Icon.Tool size={26} />

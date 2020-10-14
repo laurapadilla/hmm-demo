@@ -4,7 +4,7 @@ const components = [
   {
     component: "PPG Locations",
     description:
-      "A PPG Location is considered to be several different types of locations that can be shared throughout any customers. These locations may include an ASC – Application Service Center, FSL – Forward Stocking Location, PPG Warehouse, or Other Location that is not within those categories but needs to be captured throughout HMM.",
+      "A PPG Location is considered to be several different types of locations that can be shared throughout any customers. These locations may include the following:",
     locations,
     classname: "f5 w-70 lh-copy mb4",
     id: 1,
