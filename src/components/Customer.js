@@ -4,7 +4,7 @@ import components from "../data/components";
 
 const Locations = ({ location, about, classname }) => (
   <>
-    <p className="mb2 f5-l fw5 mt3 orange">
+    <p className="mb2 f5-l fw5 mt3 highlight-green">
       <Icon.CornerDownRight size={18} color={"#2a2e37"} />
       {location}
     </p>
@@ -44,7 +44,7 @@ class Customer extends React.Component {
           customized on a per customer basis.
         </p>
 
-        <figure className="w-60 mb5">
+        <figure className="w-100 mb5">
           <img
             src={require("../files/customer-diagram.svg")}
             alt="customer diagram"
