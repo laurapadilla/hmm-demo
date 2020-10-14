@@ -6,7 +6,7 @@ class Demo extends React.Component {
     return (
       <div>
         <h1 className="fw5 f3-l mb4">
-          <Icon.GitBranch size={28} />
+          <Icon.Tool size={28} />
           Toolset
         </h1>
         <p className="f5 w-70 lh-copy mb5">

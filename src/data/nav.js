@@ -1,19 +1,25 @@
 const nav = [
   {
-    children: "What is HMM?",
+    children: "Background",
     href: "/",
     id: 1,
+  },
+  {
+    children: "Customer Setup",
+    href: "/customer",
+    id: 2,
   },
 
   {
     children: "User Groups",
     href: "/users",
-    id: 2,
+    id: 3,
   },
+
   {
     children: "Demo Site",
     href: "/demo",
-    id: 3,
+    id: 4,
   },
 ];
 
