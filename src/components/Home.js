@@ -30,7 +30,7 @@ class Home extends React.Component {
           and a mobile app (primarily used for scanning inventory). For a map of
           the current state in HMM, please refer to{' '}
           <a
-            href="public/downloadable/SummaUserInterfaceGuide.pdf"
+            href="/downloads/summa_hmmResearchFindings2017.pdf"
             download
             className="link"
           >
@@ -40,7 +40,7 @@ class Home extends React.Component {
         <p className="f5 w-70 lh-copy mb5">
           For more background information on current HMM, please refer to the{' '}
           <a
-            href="public/downloadable/summa_hmmResearchFindings2017.pdf"
+            href="/downloads/SummaUserInterfaceGuide.pdf"
             download
             className="link"
           >
