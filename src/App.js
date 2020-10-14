@@ -7,7 +7,7 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Customer from "./components/Customer";
 import Users from "./components/Users";
-import Demo from "./components/Demo";
+import Site from "./components/Site";
 
 import { Route, Switch } from "react-router-dom";
 
@@ -53,7 +53,7 @@ function App() {
               <Route exact path="/" component={Home} />
               <Route exact path="/customer" component={Customer} />
               <Route exact path="/users" component={Users} />
-              <Route exact path="/demo" component={Demo} />
+              <Route exact path="/demo" component={Site} />
             </Switch>
           </section>
         </main>

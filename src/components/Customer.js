@@ -4,10 +4,10 @@ import components from "../data/components";
 
 const Locations = ({ location, about, classname }) => (
   <>
-    <h3 className="mb2 f5-l fw5 mt3 orange">
+    <p className="mb2 f5-l fw5 mt3 orange">
       <Icon.CornerDownRight size={18} color={"#2a2e37"} />
       {location}
-    </h3>
+    </p>
     <p className={`${classname}`}>{about}</p>
   </>
 );
@@ -38,7 +38,7 @@ class Customer extends React.Component {
           <Icon.Settings size={26} />
           Customer Setup
         </h1>
-        <p className="f5 w-70 lh-copy mb4">
+        <p className="f5 w-60 lh-copy mb4">
           Within an individual Customer Instance the customer is derived of
           different components that make up a customer. These compnents can be
           customized on a per customer basis.

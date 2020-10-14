@@ -17,7 +17,7 @@ const nav = [
   },
 
   {
-    children: "Demo Site",
+    children: "Application",
     href: "/demo",
     id: 4,
   },
