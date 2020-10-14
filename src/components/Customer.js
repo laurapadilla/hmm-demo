@@ -30,11 +30,10 @@ class Customer extends React.Component {
   render() {
     return (
       <>
-        <h1 className="fw5 f3-l mb5">
+        <h1 className="fw5 f3-l mb4">
           <Icon.Settings size={26} />
           Customer Setup
         </h1>
-        <h2 className="fw5 f4-l mb3">Customer Components</h2>
         <p className="f5 w-70 lh-copy mb4">
           Within an individual Customer Instance the customer is derived of
           different components that make up a customer. These compnents can be
