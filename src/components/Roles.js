@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import roles from "../data/roles";
+import React, { useState } from 'react';
+import roles from '../data/roles';
 
 const RoleItem = ({ className, role, description }) => {
   const [info, setInfo] = useState(false);
@@ -9,7 +9,7 @@ const RoleItem = ({ className, role, description }) => {
       <li className={`f5 f5-l mb3 fw5 ${className}`}>
         <button
           className="btn-link no-underline pointer underline-hover"
-          onClick={(id) => setInfo(!info)}
+          onClick={id => setInfo(!info)}
         >
           {role}
         </button>

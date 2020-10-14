@@ -1,11 +1,11 @@
-import React from "react";
-import * as Icon from "react-feather";
+import React from 'react';
+import * as Icon from 'react-feather';
 
-import features from "../data/features";
+import features from '../data/features';
 
 const Features = ({ feature }) => (
   <li className="f5 f5-l mb4 fw5">
-    <Icon.ArrowRight size={18} color={"green"} />
+    <Icon.ArrowRight size={18} color={'green'} />
     {feature}
   </li>
 );
@@ -15,7 +15,7 @@ class Home extends React.Component {
     return (
       <div>
         <h1 className="fw5 f3-l mb4">
-          {" "}
+          {' '}
           <Icon.Package size={26} />
           Background
         </h1>
@@ -28,25 +28,29 @@ class Home extends React.Component {
         <p className="f5 w-70 lh-copy mb4">
           Currently HMM interfaces with 3 different ERP systems (Oracle, QAD)
           and a mobile app (primarily used for scanning inventory). For a map of
-          the current state in HMM, please refer to{" "}
-          <a href="../files/hmmCurrentState2017.pdf" download className="link">
+          the current state in HMM, please refer to{' '}
+          <a
+            href="public/downloadable/SummaUserInterfaceGuide.pdf"
+            download
+            className="link"
+          >
             HMM Current State.
-          </a>{" "}
+          </a>{' '}
         </p>
         <p className="f5 w-70 lh-copy mb5">
-          For more background information on current HMM, please refer to the{" "}
+          For more background information on current HMM, please refer to the{' '}
           <a
-            href="/files/summa_hmmResearchFindings2017.pdf"
+            href="public/downloadable/summa_hmmResearchFindings2017.pdf"
             download
             className="link"
           >
             HMM Research Findings
-          </a>{" "}
+          </a>{' '}
           provided by Summa.
         </p>
 
         <h1 className="fw5 f3-l mb4">
-          {" "}
+          {' '}
           <Icon.Tool size={26} />
           What problems are we solving?
         </h1>
