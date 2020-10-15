@@ -41,9 +41,9 @@ function App() {
           </p>
         </header>
         {/* Main */}
-        <main className="main min-vh-100 flex absolute">
+        <main className="main min-vh-100 flex">
           {/* Nav column */}
-          <div className="ph4 pt5 w-20 br border-gray">
+          <div className="nav ph4 pt5 w-20 br border-gray">
             <Nav />
           </div>
 
