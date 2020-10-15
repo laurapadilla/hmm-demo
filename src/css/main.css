@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
   --light-black: #2a2e37;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--body-color);
 }
 
@@ -51,10 +51,12 @@ svg {
   color: var(--body-color);
   border-left: 3px solid var(--body-color);
   padding-left: 5px;
+  transition: padding 0.3s ease;
 }
 
 nav li {
   padding-left: 0;
+  transition: padding 0.3s ease;
 }
 
 nav li:hover {
