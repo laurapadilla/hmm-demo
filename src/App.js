@@ -43,12 +43,12 @@ function App() {
         {/* Main */}
         <main className="main min-vh-100 flex">
           {/* Nav column */}
-          <div className="nav ph4 pt5 w-20 br border-gray">
+          <div className="nav ph4-l pt5-l ph3 pt4 w-20 br border-gray">
             <Nav />
           </div>
 
           {/* content column */}
-          <section className="content w-80 pa5">
+          <section className="content w-100-ns w-80-l pa5-l pa4">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/customer" component={Customer} />

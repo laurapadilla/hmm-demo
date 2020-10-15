@@ -3,7 +3,7 @@
 :root {
   --light-black: #2a2e37;
   --blue: #006df0;
-  --highlight: #ff5a3d;
+  --highlight: #219653;
   --light-blue: #f0f7ff;
   --light-gray: #cdd9e5;
   --border: var(--light-gray);
@@ -25,7 +25,6 @@ header {
 
 .content,
 .nav {
-  z-index: -1;
   margin-top: 3.25em;
 }
 

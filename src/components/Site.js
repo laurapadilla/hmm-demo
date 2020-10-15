@@ -22,11 +22,11 @@ class Site extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="fw5 f3-l mb4">
+        <h1 className="fw5 f3 mb4">
           <Icon.Grid size={26} />
           Modules
         </h1>
-        <p className="f5 w-60 lh-copy mb4">
+        <p className="f5 w-60-l w-100 lh-copy mb4">
           HMM is split into different modules that serve a differetnt purpose
           for varying user groups.
         </p>
@@ -36,11 +36,11 @@ class Site extends React.Component {
           ))}
         </ul>
 
-        <h1 className="fw5 f3-l mb4">
+        <h1 className="fw5 f3 mb4">
           <Icon.Tool size={28} />
           Toolset
         </h1>
-        <p className="f5 w-60 lh-copy mb5">
+        <p className="f5 w-60-l w-100 lh-copy mb5">
           The new HMM application is built with{" "}
           <a
             className="no-underline"

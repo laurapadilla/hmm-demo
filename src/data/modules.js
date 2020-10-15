@@ -32,26 +32,33 @@ const modules = [
   },
 
   {
-    module: "Labeling",
+    module: "Ordering",
+    completed: true,
     classname: "mb2 f5-l fw5 mt3",
     id: 6,
   },
 
   {
-    module: "Supply Chain",
+    module: "Labeling",
     classname: "mb2 f5-l fw5 mt3",
     id: 7,
+  },
+
+  {
+    module: "Supply Chain",
+    classname: "mb2 f5-l fw5 mt3",
+    id: 8,
   },
   {
     module: "Reporting",
     classname: "mb2 f5-l fw5 mt3",
-    id: 8,
+    id: 9,
   },
 
   {
     module: "Dashboard",
     classname: "mb2 f5-l fw5 mt3",
-    id: 9,
+    id: 10,
   },
 ];
 
