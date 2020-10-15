@@ -18,7 +18,7 @@ const NavItem = ({ className, href, children }) => (
 class Nav extends React.Component {
   render() {
     return (
-      <nav>
+      <nav className="fixed">
         <ul>
           {nav.map((item, id) => (
             <NavItem {...item} key={id} />

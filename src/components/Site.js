@@ -1,10 +1,41 @@
 import React from "react";
 import * as Icon from "react-feather";
+import modules from "../data/modules";
+
+const Modules = ({ module, completed, classname }) => (
+  <>
+    {completed ? (
+      <li className={`${classname}`}>
+        <Icon.Check size={18} color={"green"} />
+        {module}
+      </li>
+    ) : (
+      <li className={`${classname}`}>
+        <Icon.X size={18} color={"red"} />
+        {module}
+      </li>
+    )}
+  </>
+);
 
 class Site extends React.Component {
   render() {
     return (
       <div>
+        <h1 className="fw5 f3-l mb4">
+          <Icon.Grid size={26} />
+          Modules
+        </h1>
+        <p className="f5 w-60 lh-copy mb4">
+          HMM is split into different modules that serve a differetnt purpose
+          for varying user groups.
+        </p>
+        <ul className="mb5">
+          {modules.map((module, id) => (
+            <Modules {...module} key={id} />
+          ))}
+        </ul>
+
         <h1 className="fw5 f3-l mb4">
           <Icon.Tool size={28} />
           Toolset
@@ -30,14 +61,6 @@ class Site extends React.Component {
           </a>
           . 
         </p>
-        <h1 className="fw5 f3-l mb4">
-          <Icon.Grid size={26} />
-          Modules
-        </h1>
-        <p className="f5 w-60 lh-copy mb5">
-          HMM is split into different modules that serve a differetnt purpose
-          for varying user groups.
-        </p>
 
         <h1 className="fw5 f3-l mb4">
           <Icon.Chrome size={26} />
@@ -51,7 +74,7 @@ class Site extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            here
+            here.
           </a>{" "}
         </p>
       </div>

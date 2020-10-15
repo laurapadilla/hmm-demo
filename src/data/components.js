@@ -27,7 +27,7 @@ const components = [
     component: "Service Levels",
     description:
       "Service Levels are various customizations that are defined at the enterprise level but can be overridden at the customer level. Enterprises can have one or more Service Levels.",
-    classname: "f5 w-60 lh-copy mb4",
+    classname: "f5 w-60 lh-copy mb5",
     id: 4,
   },
 ];

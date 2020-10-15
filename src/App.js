@@ -16,7 +16,7 @@ function App() {
     <div>
       {/* body */}
       <div>
-        <header className="w-100 pa3 flex items-center justify-between">
+        <header className="w-100 pa3 flex items-center justify-between fixed">
           <h3 className="f4-l f5-ns">HMM Team Demo</h3>
           <p className="f6">
             Built with{" "}
@@ -41,7 +41,7 @@ function App() {
           </p>
         </header>
         {/* Main */}
-        <main className="min-vh-100 flex">
+        <main className="main min-vh-100 flex absolute">
           {/* Nav column */}
           <div className="ph4 pt5 w-20 br border-gray">
             <Nav />

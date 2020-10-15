@@ -1,10 +1,11 @@
 import React from "react";
 import * as Icon from "react-feather";
 import components from "../data/components";
+import structures from "../data/structures";
 
 const Locations = ({ location, about, classname }) => (
   <>
-    <p className="mb2 f5-l fw5 mt3 highlight-green">
+    <p className="pl4 mb2 f5-l fw5 mt3 highlight-green">
       <Icon.CornerDownRight size={18} color={"#2a2e37"} />
       {location}
     </p>
@@ -12,9 +13,16 @@ const Locations = ({ location, about, classname }) => (
   </>
 );
 
+const Structures = ({ structure, about, classname }) => (
+  <>
+    <h4 className="mb3 f5-l fw6">{structure}</h4>
+    <p className={`${classname}`}>{about}</p>
+  </>
+);
+
 const Components = ({ component, description, classname, locations }) => (
   <>
-    <h4 className="mb3 f4-l fw5">{component}</h4>
+    <h4 className="mb3 f5-l fw6">{component}</h4>
     <p className={`${classname}`}>
       {locations ? (
         <div>
@@ -34,10 +42,11 @@ class Customer extends React.Component {
   render() {
     return (
       <>
-        <h1 className="fw5 f3-l mb4">
+        <h1 className="fw5 f3-l mb5">
           <Icon.Settings size={26} />
           Customer Setup
         </h1>
+        <h3 className="f4-l fw5 mb3">Customer Components</h3>
         <p className="f5 w-60 lh-copy mb4">
           Within an individual Customer Instance the customer is derived of
           different components that make up a customer. These compnents can be
@@ -54,6 +63,20 @@ class Customer extends React.Component {
         <div>
           {components.map((component, id) => (
             <Components {...component} key={id} />
+          ))}
+        </div>
+        <h3 className="f4-l fw5 mb3">Customer Structures</h3>
+        <p className="f5 w-60 lh-copy mb4">
+          A customer consists of many different structure levels. The first
+          structure under a Customer Instance is a Facility then a Facility
+          itself may have one or more Buildings. Buildings will contain more
+          than one Shop. Then the final level is the Bin/Cabinet where the
+          actual inventory is assigned. All these levels together are the makeup
+          of a customer instance.
+        </p>
+        <div>
+          {structures.map((structure, id) => (
+            <Structures {...structure} key={id} />
           ))}
         </div>
       </>

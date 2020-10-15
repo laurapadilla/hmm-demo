@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --light-black: #2a2e37;
@@ -14,13 +14,18 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--body-color);
 }
 
 header {
   background-color: var(--header);
   color: white;
+}
+
+.main {
+  top: 3.25rem;
+  z-index: -1;
 }
 
 a,
