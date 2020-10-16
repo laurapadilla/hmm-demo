@@ -42,11 +42,11 @@ class Customer extends React.Component {
   render() {
     return (
       <>
-        <h1 className="fw5 f3-l mb5">
+        <h1 className="fw5 f3 mb5">
           <Icon.Settings size={26} />
           Customer Setup
         </h1>
-        <h3 className="f4-l fw5 mb3">Customer Components</h3>
+        <h3 className="f4 fw5 mb3">Customer Components</h3>
         <p className="f5 w-60-l w-100 lh-copy mb4">
           Within an individual Customer Instance the customer is derived of
           different components that make up a customer. These compnents can be
@@ -65,7 +65,7 @@ class Customer extends React.Component {
             <Components {...component} key={id} />
           ))}
         </div>
-        <h3 className="f4-l fw5 mb3">Customer Structures</h3>
+        <h3 className="f4 fw5 mb3">Customer Structures</h3>
         <p className="f5 w-60-l w-100 lh-copy mb4">
           A customer consists of many different structure levels. The first
           structure under a Customer Instance is a Facility then a Facility

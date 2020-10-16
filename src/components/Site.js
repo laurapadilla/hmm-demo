@@ -22,7 +22,7 @@ class Site extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="fw5 f3 mb4">
+        <h1 className="fw5 f3 mb4-l mb3">
           <Icon.Grid size={26} />
           Modules
         </h1>
@@ -36,7 +36,7 @@ class Site extends React.Component {
           ))}
         </ul>
 
-        <h1 className="fw5 f3 mb4">
+        <h1 className="fw5 f3 mb4-l mb3">
           <Icon.Tool size={28} />
           Toolset
         </h1>
@@ -62,7 +62,7 @@ class Site extends React.Component {
           . 
         </p>
 
-        <h1 className="fw5 f3-l mb4">
+        <h1 className="fw5 f3 mb4-l mb3">
           <Icon.Chrome size={26} />
           Application Site
         </h1>
