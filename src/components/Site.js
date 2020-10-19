@@ -27,8 +27,10 @@ class Site extends React.Component {
           Modules
         </h1>
         <p className="f5 w-60-l w-100 lh-copy mb4">
-          HMM is split into different modules that serve a differetnt purpose
-          for varying user groups.
+          HMM development was split into different modules, following the
+          logical order of managing a customer. In a live environment, these
+          modules are interdependent features, and different user groups focus
+          their daily activities in a subset of those features.
         </p>
         <ul className="mb5">
           {modules.map((module, id) => (

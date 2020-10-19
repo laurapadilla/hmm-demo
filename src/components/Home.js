@@ -54,11 +54,16 @@ class Home extends React.Component {
           <Icon.Tool size={26} />
           What problems are we solving?
         </h1>
+        <p className="f5 w-60-l w-100 lh-copy mb4">
+          HMM changes the old architecture design of completely segregated
+          customer instances, and the new open model greatly increases our
+          ability to improve labor and data efficiencies. The new HMM will make
+          information transfer between the different systems more seamless and
+          reduce errors that can occur between them.
+        </p>
         <p className="f5 w-60-l w-100 lh-copy mb5">
-          HMM will make information transfer between them more seamless and
-          reduce errors that can occur between the different systems. The new
-          application will also digitize manual processes and will reduce
-          reliance on ERPs.
+          Processes previously handled manually are now digitized, improving
+          accuracy and traceability.
         </p>
         <h1 className="fw5 f3 mb4">
           <Icon.Code size={28} />
