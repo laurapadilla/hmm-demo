@@ -72,7 +72,7 @@ class Site extends React.Component {
           Visit the demo site{" "}
           <a
             className="no-underline"
-            href="https://devppgchemicalmanagement.azurewebsites.net/"
+            href="https://testppgchemicalmanagement.azurewebsites.net"
             target="_blank"
             rel="noopener noreferrer"
           >
