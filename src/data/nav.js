@@ -4,15 +4,15 @@ const nav = [
     href: "/",
     id: 1,
   },
-  {
-    children: "Customer Setup",
-    href: "/customer",
-    id: 2,
-  },
 
   {
     children: "User Groups",
     href: "/users",
+    id: 2,
+  },
+  {
+    children: "Customer Setup",
+    href: "/customer",
     id: 3,
   },
 

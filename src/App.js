@@ -51,8 +51,8 @@ function App() {
         <section className="content w-100-ns w-80-l pa5-l pa3">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/customer" component={Customer} />
             <Route exact path="/users" component={Users} />
+            <Route exact path="/customer" component={Customer} />
             <Route exact path="/demo" component={Site} />
           </Switch>
         </section>
